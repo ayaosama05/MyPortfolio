@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Address.cs" />
+    <Compile Remove="EntityBase.cs" />
+    <Compile Remove="Owner.cs" />
+    <Compile Remove="Project.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
+
+</Project>
